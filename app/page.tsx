@@ -1,13 +1,13 @@
 import dynamic from 'next/dynamic';
 import Image from 'next/image';
 import img from '../public/photo.png';
-const SnowFall = dynamic(() => import('../components/SnowFall'));
+const Snowfall = dynamic(() => import('../components/Snowfall'));
 
 export default function Home() {
   return (
     <main>
-      <Image src={img} alt='' className='photo' />
-      <SnowFall />
+      <Image src={img} alt='Saul Vo' className='photo' />
+      <Snowfall />
     </main>
   );
 }

@@ -1,7 +1,7 @@
 'use client';
 import React, { useEffect, useRef } from 'react';
 import { Particle } from '../models/particle';
-const SnowEffect: React.FC = () => {
+const Snowfall: React.FC = () => {
   const canvasRef = useRef<HTMLCanvasElement>(null);
 
   useEffect(() => {
@@ -34,4 +34,4 @@ const SnowEffect: React.FC = () => {
   return <canvas ref={canvasRef} />;
 };
 
-export default SnowEffect;
+export default Snowfall;
